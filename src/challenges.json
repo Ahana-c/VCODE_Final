@@ -1,0 +1,17 @@
+// src/challenges.json
+[
+    {
+      "day": 1,
+      "title": "Challenge 1",
+      "description": "Description for Challenge 1.",
+      "link": "https://example.com/challenge1"
+    },
+    {
+      "day": 2,
+      "title": "Challenge 2",
+      "description": "Description for Challenge 2.",
+      "link": "https://example.com/challenge2"
+    },
+    // Add more challenges...
+  ]
+  
