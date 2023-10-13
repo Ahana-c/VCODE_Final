@@ -1,0 +1,171 @@
+.App {
+    display: flex;
+  }
+  
+  .left_section {
+    flex: 60%; 
+    margin-right: 15px;
+  }
+  
+  .right_section {
+    flex: 40%; 
+  }
+  
+  .blue-background {
+    background-color: rgba(0, 2, 39, 1);
+  }
+  
+  body {
+    color: white;
+  }
+  
+  .day-box {
+    background-color:rgba(219, 219, 219, 0.13);
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    margin-top: 20px;
+  }
+  .refer {
+    background-color:rgba(219, 219, 219, 0.13);
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    margin-top: 20px;
+    height: 195px;
+  }
+  .leaderboard {
+    background-color:rgba(219, 219, 219, 0.13);
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    height: fit-content;
+  }
+  .streak {
+    background-color:rgba(219, 219, 219, 0.13);
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    height: 215px;
+  }
+  
+  
+  
+  .poster {
+    display: flex;
+    background-color:rgba(50, 115, 246, 1);;
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .content {
+    flex: 60%; 
+    margin-right: 15px;
+  }
+  
+  .image {
+    flex: 40%; 
+  }
+  
+  .participant-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table-header1 {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid white;
+  }
+  .table-header2{
+    background-color: rgba(50, 115, 246, 0.4);
+  
+    text-align: center;
+    padding: 8px;
+    border-bottom:1px solid white;
+  }
+  .table-header3 {
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 8px;
+  }
+  .table-content1 {
+    text-align: center;
+    padding: 8px;
+  }
+  .table-content2{
+    background-color: rgba(50, 115, 246, 0.4);
+    text-align: center;
+    padding: 8px;
+  }
+  .table-content3 {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .Streak {
+    text-align: center;
+  }
+  
+  .Streak-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Streak-logo {
+      animation: Streak-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .Streak-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .Streak-link {
+    color: #61dafb;
+  }
+  
+  @keyframes Streak-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  button {
+    font-size: calc(10px + 2vmin);
+  }
+  
+  .task-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #3273F6;
+  }
+  
+  .leaderboard-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #3273F6;
+  }
+  
+  .user-graph {
+    display: inline-block;
+    font-size: x-large;
+    margin-right: 80px;
+    margin-left: 70px;
+    padding-bottom: 20px;
+  }

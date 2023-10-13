@@ -5,7 +5,7 @@ import { TextAlignment } from "pdf-lib";
 
 const Leaderboard = () => {
     const [showAllParticipants, setShowAllParticipants] = useState(false);
-    const [topUsers, setTopUsers] = useState(["user1","user2","user3"]);
+    const [topUsers, setTopUsers] = useState(["user2","user1","user3"]);
    
 
     const participants = [
@@ -31,16 +31,17 @@ const Leaderboard = () => {
             </div>
             <div className="second_part">
             <ParticipantTable participants={showAllParticipants ? participants : top5Participants}/>
-            {
-            !showAllParticipants ? (
+            <div className="leaderboard-button">
+            {!showAllParticipants ? (
             <button onClick={() => setShowAllParticipants(true)}>
-                View Leaderboard
+                View Leaderboard 
             </button>
             ):(
             <button onClick={() => setShowAllParticipants(false)}>
                 Hide
             </button>
             )}
+            </div>
             </div>
         </div>
     );

@@ -1,0 +1,22 @@
+.navbar 
+{
+    background-color: rgba(0, 2, 39, 1); 
+    padding: 10px; 
+    display: flex;
+    align-items: center;
+}
+  
+.logo 
+{
+    width: 125px; 
+    height: auto; 
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.vertical-line {
+    border-left: 1px solid #7D7D7D;
+    height: 70px;
+  }
+  
+  

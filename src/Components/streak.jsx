@@ -4,10 +4,17 @@ const StreakDisplay = () => {
     const [streak, setStreak] = useState(0);
 
     return(
-        <div>
-            <h2>Streaks</h2>
+        <div className="Streak">
+            <h1>Current Streak</h1>
             <hr></hr>
-            <p>Current Streak: {streak} days</p>
+            <div>
+              <p style={{ fontSize: "4rem", marginTop: "2rem", marginBottom: "0" }}>
+                <span aria-label="fire emoji" role="img">
+                  🔥
+                </span>
+              </p>
+            </div>
+            <p>{streak} days</p>
         </div>
     );
 
